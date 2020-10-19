@@ -1,0 +1,12 @@
+jobs:
+  include:
+    - dist: bionic
+      language: java
+      jdk:
+        - oraclejdk8
+        - oraclejdk11
+        - openjdk10
+        - openjdk11
+      script:
+        - javac hello_world.java
+        - java hello_world
