@@ -5,4 +5,4 @@ jobs:
       language: java
       script:
         - javac hello_world.java
-        - java
+        - java hello_world
